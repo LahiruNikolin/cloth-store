@@ -21,7 +21,7 @@ const CategoriesSection = () => {
             router.push("./women-categories");
           }}
         >
-          <CategoryCTA text="Women's Clothing" />
+          <CategoryCTA text="Women's Clothing" isFemale/>
         </Styled.EachCategoryWrapper>
       </Styled.CategoriesCTAContainer>
     </Styled.CategoriesSectionContainer>

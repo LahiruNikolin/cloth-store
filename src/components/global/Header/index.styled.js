@@ -5,8 +5,8 @@ export const HeaderContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  border-bottom: 4px solid #d9d9d9;
-  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.25);
-  transform: rotate(-0.1deg);
+  border-bottom: 1px solid #d9d9d9;
+  box-shadow: 0px 3px 5px 0px rgba(217,217,217,1);
+ 
   cursor: pointer;
 `;

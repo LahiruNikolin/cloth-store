@@ -5,13 +5,14 @@ import COLORS from "../../../config/colors";
 
 export const CustomCard = styled(Card)`
   background: #ffffff;
-  box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 3px 6px 8px 0px rgba(217,217,217,1);
   border-radius: 15px;
   text-align: center;
   padding-top: 4px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  cursor: pointer;
 `;
 
 export const ClothDescriptionContainer = styled.div`

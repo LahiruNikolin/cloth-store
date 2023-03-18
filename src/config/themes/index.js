@@ -3,6 +3,7 @@ import { createTheme } from "@mui/material/styles";
 export const primaryTheme = createTheme({
   typography: {
     fontFamily: "Roboto",
+    color: "#0E0E0E",
     h3: {
       fontSize: "30px",
       fontWeight: 700,
@@ -24,9 +25,16 @@ export const primaryTheme = createTheme({
       fontWeight: 500,
     },
     body4: {
-      fontSize: "15px",
+      fontFamily: "Roboto",
+      fontSize: "14px",
       fontWeight: 400,
       lineHeight: "15px",
+    },
+    body5: {
+      fontFamily: "Roboto",
+      fontSize: "19px",
+      fontWeight: 600,
+      lineHeight: "21px",
     },
   },
 });

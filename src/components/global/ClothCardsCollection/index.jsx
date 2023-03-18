@@ -7,7 +7,7 @@ import useGetAllClothes from "@/services/useGetAllClothes";
 import {
   hanldeMapDataToRelavantType,
   handleGetActionType,
-} from "../../../utils/helpers";
+} from "@/utils/helpers";
 import { ProductContext } from "@/context/globalContext";
 
 const ClothCardsCollection = ({ limit, type }) => {
