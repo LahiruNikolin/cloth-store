@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Card from "@mui/material/Card";
 import Typography from "@mui/material/Typography";
+import COLORS from "../../../config/colors";
 
 export const CustomCard = styled(Card)`
   background: #ffffff;
@@ -12,7 +13,7 @@ export const CustomCard = styled(Card)`
 
 export const ClothDescriptionContainer = styled.div`
   border-radius: 15px;
-  background: #2bd9af;
+  background: ${COLORS.MALE};
   padding: 10px 18px 17px 18px;
 `;
 
