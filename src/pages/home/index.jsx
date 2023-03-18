@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import FlashSaleSection from "@/components/home/FlashSaleSection";
 import CategoriesSection from "@/components/home/CategoriesSection";
 

@@ -9,14 +9,24 @@ export const CustomCard = styled(Card)`
   border-radius: 15px;
   text-align: center;
   padding-top: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
 
 export const ClothDescriptionContainer = styled.div`
   border-radius: 15px;
-  background: ${COLORS.MALE};
-  padding: 10px 18px 17px 18px;
+  background: ${({ isFemale }) => (isFemale ? COLORS.FEMALE : COLORS.MALE)};
+  padding: 10px 30px 17px 30px;
 `;
 
+export const ItemTypeText = styled.div`
+  & > h4 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+`;
 export const PriceText = styled(Typography)`
   color: #0e42fd;
 `;

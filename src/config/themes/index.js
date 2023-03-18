@@ -24,9 +24,9 @@ export const primaryTheme = createTheme({
       fontWeight: 500,
     },
     body4: {
-      fontSize: "16px",
+      fontSize: "15px",
       fontWeight: 400,
-      lineHeight: "17px",
+      lineHeight: "15px",
     },
   },
 });
