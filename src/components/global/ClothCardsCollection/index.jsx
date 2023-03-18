@@ -18,7 +18,7 @@ const ClothCardsCollection = ({ limit, type }) => {
     if (data) {
       dispatch({
         type: handleGetActionType(type),
-        payload: hanldeMapDataToRelavantType(type)(data, { limit: limit }),
+        payload: hanldeMapDataToRelavantType(type)(data, { limit: limit }), // hanldeMapDataToRelavantType <- it extracts data according to the type prop passed. ex: if type is 'men's only', methods filters only men's product from the response
       });
     }
   }, [data]);
