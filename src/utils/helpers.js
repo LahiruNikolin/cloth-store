@@ -1,5 +1,5 @@
 import COLLECTION_TYPES from "@/constants/collectionTypes";
-import ACTION_TYPES from "@/config/actionTypes";
+import ACTION_TYPES from "@/constants/actionTypes";
 import {
   extractMensOnlyProducts,
   extractWomensOnlyProducts,

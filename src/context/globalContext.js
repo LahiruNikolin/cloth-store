@@ -1,5 +1,5 @@
 import * as React from "react";
-import ACTION_TYPES from "../config/actionTypes";
+import ACTION_TYPES from "../constants/actionTypes";
 
 export const ProductContext = React.createContext();
 
