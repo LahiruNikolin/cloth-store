@@ -2,9 +2,11 @@ import { createTheme } from "@mui/material/styles";
 
 export const primaryTheme = createTheme({
   typography: {
-    fontFamily: "Arial",
+    fontFamily: "Roboto",
     h3: {
-      fontSize: 30,
+      fontSize: "30px",
+      fontWeight: 700,
+      lineHeight: "40px",
     },
     body1: {
       fontWeight: 500,

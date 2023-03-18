@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-export const HomeContainer = styled.div``;
-
 export const FlashSaleContainer = styled.div`
   background-color: red;
 `;

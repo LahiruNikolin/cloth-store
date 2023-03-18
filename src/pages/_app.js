@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-import MainLayout from "@/components/global/MainLayout";
+import MainLayout from "@/components/layout/MainLayout";
 import { ThemeProvider } from "@mui/material/styles";
 import { primaryTheme } from "@/config/themes";
 

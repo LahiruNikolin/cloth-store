@@ -1,5 +1,5 @@
 import Head from "next/head";
-import MainLayout from "@/components/global/MainLayout";
+import MainLayout from "@/components/layout/MainLayout";
 import Home from "./home";
 
 export default function Index() {
