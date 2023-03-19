@@ -1,3 +1,6 @@
+// alternate API doesnt supply a meaningfull field as a replacement for desciption property
+// therefore i hardcoded these 2 values 
+
 const mockDescriptionFemale =
   "100% Polyester, Machine wash, 100% cationic polyester interlock, Machine Wash & Pre Shrunk...";
 const mockDescriptionMale =
