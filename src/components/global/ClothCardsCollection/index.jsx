@@ -17,7 +17,7 @@ const ClothCardsCollection = ({ limit, type }) => {
   useEffect(() => {
     if (data) {
       dispatch({
-        type: handleGetActionType(type),
+        type: handleGetActionType(type),  // hanldeMapDataToRelavantType at the next line returns a funtion as per supplied type: currying function technique is used
         payload: hanldeMapDataToRelavantType(type)(data, { limit: limit }), // hanldeMapDataToRelavantType <- it extracts data according to the type prop passed. ex: if type is 'men's only', methods filters only men's product from the response
       });
     }
